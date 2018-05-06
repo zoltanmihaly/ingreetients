@@ -1,25 +1,21 @@
 //
-//  ViewController.swift
+//  DummyViewController.swift
 //  midpoint_zm239
 //
-//  Created by Zozó on 2018. 04. 27..
+//  Created by Zozó on 2018. 04. 28..
 //  Copyright © 2018. Zozo. All rights reserved.
 //
 
+//This view is necessary for presenting TestViewController modally, without the tabBar
+
 import UIKit
 
-class ViewController: UIViewController {
+class DummyViewController: UIViewController, UITabBarControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
 }
-
