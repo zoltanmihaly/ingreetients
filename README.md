@@ -2,7 +2,7 @@
 
 Tagline: Ingreetients is a social app centered around food.
 
-Backend repo: https://github.coecis.cornell.edu/kc875/Backend* final* project (public)
+Backend repo: https://github.coecis.cornell.edu/kc875/Backend-final-project (public)
 
 Short description: Ingreetients enables people to socialise and meet new people by hosting cooking nights. Users can either create an event or join an existing one. Initially, the app will be targeted at Cornell students. Many students rely on parties to make friends at Cornell. This app will offer an alternative way to socialise for people who don’t like alcohol* based socials but who like cooking.
 
