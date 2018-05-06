@@ -1,4 +1,4 @@
-#App name: Ingreetients#
+# App name: Ingreetients #
 
 Tagline: Ingreetients is a social app centered around food.
 
@@ -25,29 +25,29 @@ All responses look like: {success: true, data: ...}.
 All endpoints marked with $ require a session_token for authentication.
 
 ## Events ##
-$Add event (POST /events): name, time, location, description; returns id of new event
-Add user to event (POST /events/add* user): id, email
-Remove event (DELETE /events): id
-Get future events (GET /events/all): all event data as json
-Get event by id (GET /events): id; returns event data as json
+* $Add event (POST /events): name, time, location, description; returns id of new event
+* Add user to event (POST /events/add* user): id, email
+* Remove event (DELETE /events): id
+* Get future events (GET /events/all): all event data as json
+* Get event by id (GET /events): id; returns event data as json
 
 ## Login ##
-Login user (POST /users/login): email, password; returns session_token
-Create user (POST /users/create): email, password, fname, lname, (profile_picture)
+* Login user (POST /users/login): email, password; returns session_token
+* Create user (POST /users/create): email, password, fname, lname, (profile_picture)
 
 Note that the profile picture is a URL.
 
 ## User ##
-Get user details (GET /users): email; returns user data as json
+* Get user details (GET /users): email; returns user data as json
 
 ## Updating ##
-$Update event (POST /events/update): id, (name), (time), (location), (description); returns event data as json
-$Update user (POST /users/update): email, [user details, all optional]; returns user data as json
+* $Update event (POST /events/update): id, (name), (time), (location), (description); returns event data as json
+* $Update user (POST /users/update): email, [user details, all optional]; returns user data as json
 
 ## Comments ##
-$Post new comment (POST /comments/new): event_id, text, returns new comment id
-Get all comments for an event (GET /comments/event/<event_id>): returns comment data as json array of dictionaries
-Get all comments by a user (GET /comments/user): email; returns comment data as json array of dictionaries
+* $Post new comment (POST /comments/new): event_id, text, returns new comment id
+* Get all comments for an event (GET /comments/event/<event_id>): returns comment data as json array of dictionaries
+* Get all comments by a user (GET /comments/user): email; returns comment data as json array of dictionaries
 
 
 The app satisfies the iOS project requirements in the following ways:
